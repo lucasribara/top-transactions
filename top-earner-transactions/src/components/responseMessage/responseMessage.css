@@ -1,0 +1,9 @@
+.response-success {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .response-error {
+    color: orangered;
+    font-weight: bold;
+  }
