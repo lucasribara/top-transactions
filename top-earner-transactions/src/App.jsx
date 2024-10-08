@@ -23,9 +23,7 @@ function App() {
   const currentYear = new Date().getFullYear();
 
   const submitData = async () => {
-    console.log(finalData);
     const finalObject = { id: id, result: finalData.transactionsInfo }
-    console.log(finalObject);
     const response = await submitTransactions(JSON.stringify(finalObject));
     console.log(response);
     setSubmitResponse(response);
